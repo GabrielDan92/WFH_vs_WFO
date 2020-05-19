@@ -13,7 +13,7 @@ The file format (in this case) populates data for each employee on one row, and 
 In order for me to work with this file, I have to concatenate the first and last name of the employees and also (most important) move the calendar days from their horizontal order to a vertical one (transpose). This way, 30 calendar days for example will translate to 30 rows for each employee. (helpful for the countifs formula that will be added later) <p>
 #### Before: <p>
   <a><img src="HR.PNG"/></a>
-#### After: <p>
+#### After (disregard the 'Count' column that was calculated after both source file have been imported): <p>
 <a><img src="transpose.PNG"/></a> <p>
 - a source file from company's ERP solution (SAP, ORACLE, etc.). This file shows me the business' activity for the entire month, but it doesn't group the results by employee, team or even calendar day. The objective is to group these hundreds of thousands of rows into coherent data for each employee that can be later interpreted, with some help from the above HR report. <p>
 <a><img src="erp.PNG"/></a>
