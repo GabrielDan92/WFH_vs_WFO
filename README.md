@@ -19,7 +19,7 @@ In order for me to work with this file, I have to concatenate the first and last
 <a><img src="erp.PNG"/></a>
 This file already has the employee names concatenated but it also has a comma between the first and last name, so the script is removing the comma and imports the employees into a VBA dictionary that will help me down the line. <p>
 
-On top of that, the script also has some neat features that prevent date errors (mm/dd/yyyy vs dd/mm/yyyy) if the source data comes from US and Europe for example, like transforming the date into a DateSerial object in VBA and formatting the Excel cells to text while I'm building the report. <p>
+On top of that, the script also has some neat features that prevent date errors (mm/dd/yyyy vs dd/mm/yyyy) if the source data comes from US and Europe for example, like transforming the date into a DateSerial object in VBA and formatting the Excel cells to text (for changing date values to a 5 digit date serial) while I'm building the report. <p>
 
 ## The final results
 The Excel tables can be seen below, and by having an overview of team's activity in the Excel tables, the business can generate other, more descriptive charts if needed, and see in detail each employee's performance for the month in question. <p>
