@@ -22,5 +22,5 @@ This file already has the employee names concatenated but it also has a comma be
 On top of that, the script also has some neat features that prevent date errors (mm/dd/yyyy vs dd/mm/yyyy) if the source data comes from US and Europe for example, like transforming the date into a DateSerial object in VBA and formatting the Excel cells to text while I'm building the report. <p>
 
 ## The final results
-The Excel tables can be seen below, and by having an overview of team's activity in the Excel tables, the business can generate other, more descriptive charts if needed. <p>
+The Excel tables can be seen below, and by having an overview of team's activity in the Excel tables, the business can generate other, more descriptive charts if needed, and see in detail each employee's performance for the month in question. <p>
 <a><img src="Final.PNG"/></a>
